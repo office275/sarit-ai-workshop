@@ -301,6 +301,24 @@
 
         .check-text {
             transition: all 0.3s;
+            flex: 1;
+        }
+
+        .checklist-link {
+            padding: 6px 18px;
+            background: linear-gradient(135deg, var(--pink), var(--purple));
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .checklist-link:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 15px rgba(205, 51, 139, 0.3);
         }
 
         .progress-counter {
@@ -866,30 +884,37 @@
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">התקנתי / עדכנתי את דפדפן Chrome</span>
+                    <a href="https://www.google.com/chrome/" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להורדה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-ChatGPT</span>
+                    <a href="https://www.chatgpt.com" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-Perplexity</span>
+                    <a href="https://www.perplexity.ai/" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-Gemini</span>
+                    <a href="https://gemini.google.com/app" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-Claude</span>
+                    <a href="https://claude.ai/chats" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-Grok</span>
+                    <a href="https://grok.com/" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
                     <span class="check-text">נרשמתי ל-Google AI Studio</span>
+                    <a href="https://aistudio.google.com/prompts/new_chat" target="_blank" class="checklist-link" onclick="event.stopPropagation()">להרשמה</a>
                 </div>
                 <div class="checklist-item" onclick="toggleCheck(this)">
                     <div class="check-box"></div>
